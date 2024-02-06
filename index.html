@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Sketch-App</h1>
+        <br>
+        <div id="sketchPadContainer"></div>
+    </div>
+    <script src="draw.js"></script>
+    <script src="sketchPad.js"></script>
+    <script>
+        const sketchPad=new SketchPad(sketchPadContainer);
+        sketchPad.reset();
+    </script>
+</body>
+</html>
